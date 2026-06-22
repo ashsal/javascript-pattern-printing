@@ -1,5 +1,5 @@
 const numberOfRows = 5;
-for (i = numberOfRows; i >= 1; i--) {
+for (let i = numberOfRows; i >= 1; i--) {
   let row = "";
   for (let j = 1; j <= numberOfRows - i; j++) {
     row += " ";
@@ -11,7 +11,7 @@ for (i = numberOfRows; i >= 1; i--) {
   console.log(row);
 }
 
-for (i = 2; i <= numberOfRows; i++) {
+for (let i = 2; i <= numberOfRows; i++) {
   let row = "";
   for (let j = 1; j <= numberOfRows - i; j++) {
     row += " ";

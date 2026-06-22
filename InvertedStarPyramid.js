@@ -1,5 +1,5 @@
 function printInvertedPyramid(numberOfRows) {
-  for (i = numberOfRows; i >= 1; i--) {
+  for (let i = numberOfRows; i >= 1; i--) {
     let row = "";
     for (let j = 1; j <= numberOfRows - i; j++) {
       row += " ";
